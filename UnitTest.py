@@ -22,4 +22,4 @@ class UnitTest(unittest.TestCase):
         self.assertIsInstance(result, list)
         self.assertTrue(all(r == o for r, o in zip(result, output)))
 
-if __name__ == '__main__': unittest.main()
+if __name__ == '__main__': unittest.main() 
